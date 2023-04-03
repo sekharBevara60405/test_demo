@@ -1,0 +1,4 @@
+Hello Darlings
+
+1.git init -> to make this file to use int git
+2.git status>o check whether it is under working directory(local) or in repository(git)   
