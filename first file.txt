@@ -1,4 +1,72 @@
 Hello Darlings
 
+1.git init -> to make this file to use int gitHello Darlings
+
 1.git init -> to make this file to use int git
+2.git status>o check whether it is under working directory(local) or in repository(git)   
+
+
+
+To move file from working directory to repository there are three steps.
+
+1.add
+
+2.commit
+
+
+=>git add (file name)   -> to add only one file
+=>git add * .		-> to add mulktiple files
+
+*) after adding check git status --> not commmitted
+
+
+=> git commit -m "My First Project files"    //--> the number (or) name should be valid (or) should be as the company given.
+
+
+=> to add our git hub mail and user name:-
+=>git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+to create:-
+---------
+…or create a new repository on the command line
+echo "# test_demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sekharBevara60405/test_demo.git
+git push -u origin main
+
+to push:-
+-------
+…or push an existing repository from the command line
+git remote add origin https://github.com/sekharBevara60405/test_demo.git
+git branch -M main
+git push -u origin main
+
+
+to import:-
+---------
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
+
+
+--> to add our file from git to github
+------> git remote add origin https://github.com/sekharBevara60405/test_demo.git(link copied from created repository);
+
+
+
+--> git push origin master( to push the files we are committed into our github)
+-->
+
+
+------> for cloaning:-
+	  -------------
+
+------->to get from git hub
+
+------->git clone https://github.com/sekharBevara60405/test_demo.git(link of code in repository)
+	
 2.git status>o check whether it is under working directory(local) or in repository(git)   
